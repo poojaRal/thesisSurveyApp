@@ -1,0 +1,127 @@
+<nav class="navbar navbar-default navbar-static-top headerTop">
+    <a class="navbar-brand brand-text text-center fillWidth">
+        {{title}}
+    </a>
+</nav>
+<p class="text-center">
+	{{question}}
+</p>
+<div id="optionsOne" class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3" style="display:none;">
+	<ul style="text-align:center;">
+    <div class="btn-group btn-group-vertical">
+	    <li ng-repeat="answer in answers">
+          <label class="btn btn-default customRadioBtn">
+            <input type="radio" ng-model="$parent.selectedAnswer" name="answerText" id="{{answer.answerID}}" ng-value="{{answer.answerID}}"/>&nbsp;&nbsp;{{answer.answerText}}
+          </label>
+	    </li>
+    </div>
+	</ul>
+</div>
+<div id="optionsThree" class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3" style="display:none;">
+  <ul>
+      <li ng-repeat="answer in answers">
+          <!-- <input type="checkbox" ng-model="$parent.selectedAnswer" name="answerText" value="{{answer}}"/> -->
+          <input type="checkbox" name="answerText" value="{{answer}}"/>
+          <label>{{answer.answerText}}
+          </label>
+      </li>
+  </ul>
+</div>
+
+
+
+<div id="optionsTwo" class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3" style="display:none;">
+
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 729.61395 654.69336" height="654.69" width="729.61"  version="1.1">
+ <path id="noPainCheck" d="m190.22 50.043 11.679 7.7086 16.512-20.692" stroke="#000" stroke-width="2.008" display="none" fill="none"/>
+ <g id="g4" font-size="23.392px" font-family="&apos;Helvetica Neue&apos;">
+  <text id="text3794" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="-0.98244596"><tspan id="tspan3796" y="553.55615" x="-0.98244596"><tspan id="tspan3798" y="553.55615" x="-0.98244596">0</tspan></tspan></text>
+  <text id="text3810" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="71.514412"><tspan id="tspan3812" y="553.55615" x="71.514412"><tspan id="tspan3814" y="553.55615" x="71.514412">1</tspan></tspan></text>
+  <text id="text3816" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="144.02826"><tspan id="tspan3818" y="553.55615" x="144.02826"><tspan id="tspan3820" y="553.55615" x="144.02826">2</tspan></tspan></text>
+  <text id="text3822" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="216.54213"><tspan id="tspan3824" y="553.55615" x="216.54213"><tspan id="tspan3826" y="553.55615" x="216.54213">3</tspan></tspan></text>
+  <text id="text3828" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="289.056"><tspan id="tspan3830" y="553.55615" x="289.056"><tspan id="tspan3832" y="553.55615" x="289.056">4</tspan></tspan></text>
+  <text id="text3834" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="361.56985"><tspan id="tspan3836" y="553.55615" x="361.56985"><tspan id="tspan3838" y="553.55615" x="361.56985">5</tspan></tspan></text>
+  <text id="text3840" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="434.08371"><tspan id="tspan3842" y="553.55615" x="434.08371"><tspan id="tspan3844" y="553.55615" x="434.08371">6</tspan></tspan></text>
+  <text id="text3846" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="579.0509"><tspan id="tspan3848" y="553.55615" x="579.0509"><tspan id="tspan3850" y="553.55615" x="579.0509">8</tspan></tspan></text>
+  <text id="text3852" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="651.42963"><tspan id="tspan3854" y="553.55615" x="651.42963"><tspan id="tspan3856" y="553.55615" x="651.42963">9</tspan></tspan></text>
+  <text id="text3858" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="506.59766"><tspan id="tspan3860" y="553.55615" x="506.59766"><tspan id="tspan3862" y="553.55615" x="506.59766">7</tspan></tspan></text>
+  <text id="text3864" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="723.8609"><tspan id="tspan3866" y="553.55615" x="723.8609"><tspan id="tspan3868" y="553.55615" x="723.8609">10</tspan><tspan id="tspan3870" y="553.55615" x="749.90234" dx="0"/></tspan></text>
+ </g>
+ <g stroke="#000" fill="none">
+  <rect id="sliderElem0" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="13.159" stroke-width="1.2518"/>
+  <path id="path3033" d="m13.013 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem1" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="83.746" stroke-width="1.2518"/>
+  <path id="path3033-8" d="m83.644 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem2" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="154.35" stroke-width="1.2518"/>
+  <path id="path3033-9" d="m154.28 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem3" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="224.95" stroke-width="1.2518"/>
+  <path id="path3033-6" d="m224.93 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem4" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="295.56" stroke-width="1.2518"/>
+  <path id="path3033-7" d="m295.58 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem5" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="366.15" stroke-width="1.2518"/>
+  <path id="path3033-5" d="m366.22 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem6" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="436.76" stroke-width="1.2518"/>
+  <path id="path3033-1" d="m436.87 549.15v-88.382" stroke-width="1.0137px"/>
+  <path id="path3033-3" d="m578.1 548.99v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem8" pointer-events="visible" ry="0" height="55.045" width="70.603" y="475.71" x="577.9" stroke-width="1.2518"/>
+  <path id="path3033-3-8" d="m648.62 548.99v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem7" pointer-events="visible" ry="0" height="55.045" width="70.603" y="475.96" x="507.37" stroke-width="1.2518"/>
+  <path id="path3033-80" d="m507.51 548.99v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem9" pointer-events="visible" ry="0" height="55.045" width="70.603" y="475.83" x="648.43" stroke-width="1.2518"/>
+  <path id="path3033-3-8-2" d="m719.18 549.05v-88.382" stroke-width="1.0137px"/>
+ </g>
+ <g id="g62" font-family="Sans">
+  <text id="text4672" font-size="23.392px" line-height="125%" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" transform="scale(.97424 1.0264)" y="579.02008" x="8.3792715" fill="#333333"><tspan id="tspan4674" y="579.02008" x="8.3792715">No</tspan><tspan id="tspan4676" y="608.25952" x="8.3792715">Confidence</tspan></text>
+  <text id="text8250" font-size="23.392px" line-height="125%" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" transform="scale(.97424 1.0264)" y="579.73962" x="319.62759" fill="#333333"><tspan id="tspan8252" y="579.73962" x="319.62759" fill="#333333"><tspan id="tspan8254" y="579.73962" x="319.62759">Moderate</tspan><tspan id="tspan8256" y="579.73962" x="418.53922" dx="0"/></tspan><tspan id="tspan8258" y="608.97913" x="319.62759"><tspan id="tspan8260" y="608.97913" x="319.62759" fill="#333333">Confidence</tspan></tspan></text>
+  <text id="text8262" font-size="23.391px" line-height="125%" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:end;text-align:end" transform="scale(.97424 1.0264)" y="579.01984" x="740.12665" fill="#4d4d4d"><tspan id="tspan4333" y="579.01984" x="740.12665">High</tspan><tspan id="tspan4335" y="608.25891" x="747.57349">Confidence </tspan></text>
+  <flowRoot id="flowRoot8292" style="word-spacing:0px;letter-spacing:0px" transform="translate(-65.178 -131.71)" xml:space="preserve" font-size="40px" line-height="125%" fill="#000000"><flowRegion id="flowRegion8294"><rect id="rect8296" y="-7.1252" x="4" height="408" width="144"/></flowRegion><flowPara id="flowPara8298"/></flowRoot>
+ </g>
+ <rect id="noPainRect" pointer-events="visible" height="35" width="36" stroke="#6f6f6f" y="28.717" x="282.45" fill="none"/>
+ <g id="g103" fill="#333">
+  <text id="text8244" font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="63.781609" x="320.94678" font-family="&apos;Helvetica Neue&apos;"><tspan id="tspan8246" y="63.781609" x="320.94678"><tspan id="tspan8248" y="63.781609" x="320.94678" fill="#333333">No Answer</tspan></tspan></text>
+  <g id="g108" font-family="Sans">
+   <!--text id="text8276" font-size="23.392px" line-height="125%" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" transform="scale(.97424 1.0264)" y="427.03342" x="105.59016"><tspan id="tspan8278" y="427.03342" x="105.59016" fill="#333333"><tspan id="tspan8280" y="427.03342" x="105.59016"></tspan><tspan id="tspan8282" y="427.03342" x="160.23141" dx="0"/></tspan></text>
+   <text id="text8284" font-size="23.392px" line-height="125%" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" transform="scale(.97424 1.0264)" y="427.03342" x="594.44043"><tspan id="tspan8286" y="427.03342" x="594.44043" fill="#333333"><tspan id="tspan8288" y="427.03342" x="594.44043"></tspan><tspan id="tspan8290" y="427.03342" x="646.47754" dx="0"/></tspan></text-->
+   <text id="bodyPartText" font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="280.83463" x="279.01709"><tspan id="tspan8374" y="280.83463" x="279.01709"><tspan id="tspan8376" y="280.83463" x="279.01709" font-family="&apos;Helvetica Neue&apos;" fill="#333333">{{bodyPainAnswer.location}}</tspan></tspan></text>
+  </g>
+ </g>
+ <g>
+   <image id="imgHappy" xlink:href="images/happy-face.png" x="0" y="0" width="200" height="200" ng-click="setMood(1)" />
+   <image id="imgNeutral" xlink:href="images/neutral-face.png" x="0" y="210" width="200" height="200" ng-click="setMood(2)" />
+   <image id="imgSad" xlink:href="images/sad-face.png" x="530" y="0" width="200" height="200" ng-click="setMood(0)" />
+   <image id="imgAngry" xlink:href="images/angry-face.png" x="530" y="210" width="200" height="200" ng-click="setMood(3)" />
+ </g>
+
+ </svg>
+</div>
+
+
+<div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-1 customBtn">
+	<button type="button" id="prev" class="btn btn-block" ng-disabled = "prevDisabled" ng-click="goPrev();"><i class="fa fa-angle-left"></i>&nbsp;&nbsp;&nbsp;Prev</button>
+</div>
+<div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 customBtn">
+	<button type="button" id="next" class="btn btn-primary btn-block redBtn" ng-disabled = "nextDisabled" ng-click="goNext();">Next &nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i></button>
+</div>
+<!-- <div class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 customBtn" style="margin-top:5%">
+	<button type="button" id="prev" class="btn btn-block" ng-click="changePage('/');">Cancel Survey</button>
+</div> -->
+<div class="progress" id="surveyProgress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{getAnswered()}}" aria-valuemin="0" aria-valuemax="{{getTotal()}}" ng-style="{width : ( getPercentage() + '%' ) }">
+    {{getAnswered()}}/{{getTotal()}}
+  </div>
+</div>
+<!-- <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+    0%
+  </div>
+</div> -->
+<!-- <div class="progress" id="surveyProgress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" ng-style="myStyle"> <span class="sr-only">50%</span>
+  </div>
+</div> -->
+<!-- <div class="progress-bar progress-bar-warning"
+  role="progressbar" aria-valuenow="{{getPercentage()}}" aria-valuemin="0"
+  aria-valuemax="100">
+    <span class="sr-only">{{getPercentage()}}% Complete (warning)</span>
+</div> -->

@@ -1,0 +1,17 @@
+{
+    "surveys": [
+        {
+            "surveyInstanceID": 12345,
+            "nextDueAt": "2015-02-26T21:34:08.000Z"
+        },
+        {
+            "surveyInstanceID": 45678,
+            "nextDueAt": "2015-02-26T21:34:08.000Z"
+        },
+        {
+            "surveyInstanceID": 34567,
+            "nextDueAt": "2015-02-26T21:34:08.000Z"
+        }
+    ],
+    "message": "Success"
+}

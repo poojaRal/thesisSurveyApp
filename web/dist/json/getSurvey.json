@@ -1,0 +1,119 @@
+{
+    "surveyID": 45678,
+    "questions": [
+        {
+            "quesID": 101,
+            "questionType": "multiChoiceSingleAnswer",
+            "questionText": "In the past 7 days, I had trouble sleeping when I had pain.",
+            "answerOptions": [
+                {
+                    "answerID": 501,
+                    "answerText": "Never"
+                },
+                {
+                    "answerID": 502,
+                    "answerText": "Almost Never"
+                },
+                {
+                    "answerID": 503,
+                    "answerText": "Sometimes"
+                },
+                {
+                    "answerID": 504,
+                    "answerText": "Often"
+                },
+                {
+                    "answerID": 505,
+                    "answerText": "Almost Always"
+                }
+            ]
+        },
+        {
+            "quesID": 102,
+            "questionType": "multiChoiceSingleAnswer",
+            "questionText": "In the past 7 days, I had trouble doing schoolwork when I had pain.",
+            "answerOptions": [
+                {
+                    "answerID": 506,
+                    "answerText": "Never"
+                },
+                {
+                    "answerID": 507,
+                    "answerText": "Almost Never"
+                },
+                {
+                    "answerID": 508,
+                    "answerText": "Sometimes"
+                },
+                {
+                    "answerID": 509,
+                    "answerText": "Often"
+                },
+                {
+                    "answerID": 510,
+                    "answerText": "Almost Always"
+                }
+            ]
+        },
+        {
+            "quesID": 103,
+            "questionType": "multiChoiceSingleAnswer",
+            "questionText": "In the past 7 days, It was hard for me to pay attention when I had pain.",
+            "answerOptions": [
+                {
+                    "answerID": 511,
+                    "answerText": "Never"
+                },
+                {
+                    "answerID": 512,
+                    "answerText": "Almost Never"
+                },
+                {
+                    "answerID": 513,
+                    "answerText": "Sometimes"
+                },
+                {
+                    "answerID": 514,
+                    "answerText": "Often"
+                },
+                {
+                    "answerID": 515,
+                    "answerText": "Almost Always"
+                }
+            ]
+        },
+        {
+            "quesID": 104,
+            "questionType": "multiChoiceSingleAnswer",
+            "questionText": "In the past 7 days, It was hard for me to walk one block when I had pain.",
+            "answerOptions": [
+                {
+                    "answerID": 516,
+                    "answerText": "Never"
+                },
+                {
+                    "answerID": 517,
+                    "answerText": "Almost Never"
+                },
+                {
+                    "answerID": 518,
+                    "answerText": "Sometimes"
+                },
+                {
+                    "answerID": 519,
+                    "answerText": "Often"
+                },
+                {
+                    "answerID": 520,
+                    "answerText": "Almost Always"
+                }
+            ]
+        },
+        {
+            "quesID": 105,
+            "questionType": "bodyPain",
+            "questionText": "Please select the body area in which you feel the most pain.",
+            "answerOptions": []
+        }
+    ]
+}

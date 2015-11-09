@@ -1,0 +1,106 @@
+<nav class="navbar navbar-default navbar-static-top headerTop">    
+    <a class="navbar-brand brand-text text-center fillWidth">
+        {{title}}
+    </a>    
+</nav>
+<div class="text-center" style="height:200px;">
+	<div class="box-fluid">
+      <span ng-show="error.message" class="help-block alert alert-danger">{{error.message}}</span>
+    </div>
+	<div class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 ">
+		<input type="text" ng-model="pin" id="pin" class="form-control" placeholder="Enter PIN">
+		<input type="text" ng-model="serverSettings" id="serverSettings" class="form-control" placeholder="Enter Server Address">
+		
+	</div>
+	<div class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 customBtn">
+		<button type="button" class="btn btn-primary btn-block redBtn" ng-click="saveSettings()">Save</button>
+	</div>
+	<div class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 customBtn">
+		<button type="button" class="btn btn-primary btn-block redBtn" ng-click="changePage('/home')">Cancel</button>
+	</div>
+</div>
+<div class="box-fluid text-center" style="margin-top:2em">
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary btn-lg redBtn" data-toggle="modal" data-target="#advancedSettings">
+	  Advanced Settings <i class="fa fa-gear"></i>
+	</button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="advancedSettings" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false" style="z-index:10000">
+  <div class="modal-dialog modal-md">
+        <div class="modal-content">
+        	<div class="modal-header">
+        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        		<h4 class="modal-title">Advanced Settings</h4>
+      		</div>
+            <div class="modal-body text-center form-horizontal"> 
+				<!-- <div class="form-group">
+				    <label for="selectSource" class="col-sm-5" style="margin-top:0.5em;">Data Source:</label>
+				    <div class="col-sm-7">
+				      	<select class="form-control" id="selectSource" ng-model="dataSource">
+							<option value="remote">Remote</option>
+							<option value="local">Local</option>					  
+						</select>
+				    </div>
+  				</div> -->
+  				<div class="form-group">
+				    <label for="selectSource" class="col-sm-5" style="margin-top:0.5em;">Reminder interval(in hours):</label>
+				    <div class="col-sm-7">				      	
+				      	<select class="form-control" id="reminderTime" ng-model="reminderTime">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+						</select>
+				    </div>
+  				</div>
+  				<div class="form-group">
+				    <label for="saveStateTime" class="col-sm-5" style="margin-top:0.5em;">Time to Complete(in hours):</label>
+				    <div class="col-sm-7">				      	
+				      	<select class="form-control" id="saveStateTime" ng-model="saveStateTime">
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>							
+						</select>
+				    </div>
+  				</div>
+  				<div class="form-group">
+				    <label for="protocolSettings" class="col-sm-5" style="margin-top:0.5em;">Protocol:</label>
+				    <div class="col-sm-7">
+				    	<select class="form-control" id="protocolSettings" ng-model="protocolSettings">		<option value="https">https</option>
+				    		<option value="http">http</option>	
+				      	</select>
+				    </div>
+  				</div>
+  				<div>
+  					<p id="releaseInfo"></p>
+  				</div>
+  			</div>
+            <div class="modal-footer">
+        		<button type="button" class="btn btn-primary redBtn" data-dismiss="modal">Close</button>
+        		<button type="button" class="btn btn-primary redBtn" ng-click="saveAdvancedSettings();">Save changes</button>
+      		</div>
+        </div>
+    </div>
+</div>

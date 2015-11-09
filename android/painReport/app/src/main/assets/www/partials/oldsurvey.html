@@ -1,0 +1,142 @@
+<nav class="navbar navbar-default navbar-static-top headerTop">
+    <a class="navbar-brand brand-text text-center fillWidth">
+        {{title}}
+    </a>
+</nav>
+<p class="text-center">
+	{{question}}
+</p>
+<div id="optionsOne" class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3" style="display:none;">
+	<ul style="text-align:center;">
+    <div class="btn-group btn-group-vertical">
+	    <li ng-repeat="answer in answers">
+          <label class="btn btn-default customRadioBtn">
+            <input type="radio" ng-model="$parent.selectedAnswer" name="answerText" id="{{answer.answerID}}" ng-value="{{answer.answerID}}"/>&nbsp;&nbsp;{{answer.answerText}}
+          </label>
+	    </li>
+    </div>
+	</ul>
+</div>
+<div id="optionsThree" class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3" style="display:none;">
+  <ul>
+      <li ng-repeat="answer in answers">
+          <!-- <input type="checkbox" ng-model="$parent.selectedAnswer" name="answerText" value="{{answer}}"/> -->
+          <input type="checkbox" name="answerText" value="{{answer}}"/>
+          <label>{{answer.answerText}}
+          </label>
+      </li>
+  </ul>
+</div>
+
+<div id="optionsTwo" class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3" style="display:none;">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 729.61395 654.69336" height="654.69" width="729.61" version="1.1">
+ <path id="noPainCheck" d="m190.22 50.043 11.679 7.7086 16.512-20.692" stroke="#000" stroke-width="2.008" display="none" fill="none"/>
+ <g id="g4" font-size="23.392px" font-family="&apos;Helvetica Neue&apos;">
+  <text id="text3794" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="-0.98244596"><tspan id="tspan3796" y="553.55615" x="-0.98244596"><tspan id="tspan3798" y="553.55615" x="-0.98244596">0</tspan></tspan></text>
+  <text id="text3810" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="71.514412"><tspan id="tspan3812" y="553.55615" x="71.514412"><tspan id="tspan3814" y="553.55615" x="71.514412">1</tspan></tspan></text>
+  <text id="text3816" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="144.02826"><tspan id="tspan3818" y="553.55615" x="144.02826"><tspan id="tspan3820" y="553.55615" x="144.02826">2</tspan></tspan></text>
+  <text id="text3822" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="216.54213"><tspan id="tspan3824" y="553.55615" x="216.54213"><tspan id="tspan3826" y="553.55615" x="216.54213">3</tspan></tspan></text>
+  <text id="text3828" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="289.056"><tspan id="tspan3830" y="553.55615" x="289.056"><tspan id="tspan3832" y="553.55615" x="289.056">4</tspan></tspan></text>
+  <text id="text3834" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="361.56985"><tspan id="tspan3836" y="553.55615" x="361.56985"><tspan id="tspan3838" y="553.55615" x="361.56985">5</tspan></tspan></text>
+  <text id="text3840" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="434.08371"><tspan id="tspan3842" y="553.55615" x="434.08371"><tspan id="tspan3844" y="553.55615" x="434.08371">6</tspan></tspan></text>
+  <text id="text3846" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="579.0509"><tspan id="tspan3848" y="553.55615" x="579.0509"><tspan id="tspan3850" y="553.55615" x="579.0509">8</tspan></tspan></text>
+  <text id="text3852" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="651.42963"><tspan id="tspan3854" y="553.55615" x="651.42963"><tspan id="tspan3856" y="553.55615" x="651.42963">9</tspan></tspan></text>
+  <text id="text3858" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="506.59766"><tspan id="tspan3860" y="553.55615" x="506.59766"><tspan id="tspan3862" y="553.55615" x="506.59766">7</tspan></tspan></text>
+  <text id="text3864" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="scale(.97424 1.0264)" line-height="125%" y="553.55615" x="723.8609"><tspan id="tspan3866" y="553.55615" x="723.8609"><tspan id="tspan3868" y="553.55615" x="723.8609">10</tspan><tspan id="tspan3870" y="553.55615" x="749.90234" dx="0"/></tspan></text>
+ </g>
+ <g stroke="#000" fill="none">
+  <rect id="sliderElem0" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="13.159" stroke-width="1.2518"/>
+  <path id="path3033" d="m13.013 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem1" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="83.746" stroke-width="1.2518"/>
+  <path id="path3033-8" d="m83.644 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem2" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="154.35" stroke-width="1.2518"/>
+  <path id="path3033-9" d="m154.28 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem3" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="224.95" stroke-width="1.2518"/>
+  <path id="path3033-6" d="m224.93 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem4" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="295.56" stroke-width="1.2518"/>
+  <path id="path3033-7" d="m295.58 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem5" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="366.15" stroke-width="1.2518"/>
+  <path id="path3033-5" d="m366.22 549.15v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem6" pointer-events="visible" ry="0" height="55.045" width="70.603" y="476.06" x="436.76" stroke-width="1.2518"/>
+  <path id="path3033-1" d="m436.87 549.15v-88.382" stroke-width="1.0137px"/>
+  <path id="path3033-3" d="m578.1 548.99v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem8" pointer-events="visible" ry="0" height="55.045" width="70.603" y="475.71" x="577.9" stroke-width="1.2518"/>
+  <path id="path3033-3-8" d="m648.62 548.99v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem7" pointer-events="visible" ry="0" height="55.045" width="70.603" y="475.96" x="507.37" stroke-width="1.2518"/>
+  <path id="path3033-80" d="m507.51 548.99v-88.382" stroke-width="1.0137px"/>
+  <rect id="sliderElem9" pointer-events="visible" ry="0" height="55.045" width="70.603" y="475.83" x="648.43" stroke-width="1.2518"/>
+  <path id="path3033-3-8-2" d="m719.18 549.05v-88.382" stroke-width="1.0137px"/>
+ </g>
+ <g id="g62" font-family="Sans">
+  <text id="text4672" font-size="23.392px" line-height="125%" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" transform="scale(.97424 1.0264)" y="579.02008" x="8.3792715" fill="#333333"><tspan id="tspan4674" y="579.02008" x="8.3792715">No</tspan><tspan id="tspan4676" y="608.25952" x="8.3792715">Pain</tspan></text>
+  <text id="text8250" font-size="23.392px" line-height="125%" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" transform="scale(.97424 1.0264)" y="579.73962" x="319.62759" fill="#333333"><tspan id="tspan8252" y="579.73962" x="319.62759" fill="#333333"><tspan id="tspan8254" y="579.73962" x="319.62759">Moderate</tspan><tspan id="tspan8256" y="579.73962" x="418.53922" dx="0"/></tspan><tspan id="tspan8258" y="608.97913" x="319.62759"><tspan id="tspan8260" y="608.97913" x="319.62759" fill="#333333">Pain</tspan></tspan></text>
+  <text id="text8262" font-size="23.391px" line-height="125%" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px;text-anchor:end;text-align:end" transform="scale(.97424 1.0264)" y="579.01984" x="740.12665" fill="#4d4d4d"><tspan id="tspan4333" y="579.01984" x="740.12665">Worst</tspan><tspan id="tspan4335" y="608.25891" x="747.57349">Possible </tspan><tspan id="tspan4337" y="637.49799" x="740.12665">Pain</tspan></text>
+  <flowRoot id="flowRoot8292" style="word-spacing:0px;letter-spacing:0px" transform="translate(-65.178 -131.71)" xml:space="preserve" font-size="40px" line-height="125%" fill="#000000"><flowRegion id="flowRegion8294"><rect id="rect8296" y="-7.1252" x="4" height="408" width="144"/></flowRegion><flowPara id="flowPara8298"/></flowRoot>
+ </g>
+ <path id="headFront" d="m116.31 90.897c-12.493-4.2964-22.141-14.46-25.005-26.345-0.515-2.1364-0.94166-2.574-1.5499-1.5898-2.5788 4.1726-2.4476-35.358 0.14424-43.462 1.8716-5.8522 10.074-13.67 17.363-16.551 5.3098-2.0983 7.6255-2.3637 20.969-2.4038 14.554-0.0437 15.145 0.0367 19.875 2.7044l4.8749 2.7494-0.59988-2.9994c-0.32-1.6493-0.22-2.999 0.23-2.999 1.346 0 4.13 3.5369 4.13 5.247 0 3.0607 1.11 4.537 3.0331 4.0341 2.7153-0.71006 7.5603 4.4951 8.9345 9.5988 2.0026 7.4373 0.52649 42.461-1.859 44.107-0.40948 0.2825-2.1101 3.46-3.7792 7.061-3.6391 7.8513-7.7522 12.743-14.107 16.778-9.8249 6.2379-21.947 7.7499-32.644 4.0714z" fill="#ebeff0"/>
+ <path id="path6132" d="m164.88 50.897c-1.7728-8.583-5.5433-16.671-8.3726-17.96-1.9076-0.86915-3.2942-0.59302-7.4147 1.4766-6.09 3.0588-18.891 6.2399-28.7 7.1319-7.0258 0.63892-7.1087 0.61922-4.6533-1.1051 7.655-5.3757 8.8518-8.9389 1.7928-5.3377-2.2541 1.15-5.8311 2.7022-7.9489 3.4494l-3.8506 1.3586 1.3767-2.7068c0.75717-1.4888 1.689-3.7193 2.0707-4.9568 0.61018-1.978 0.34119-2.25-2.2254-2.25-3.7539 0-9.0777 3.6003-11.528 7.7962-1.0566 1.8092-2.9993 6.3077-4.3171 9.9966l-2.3959 6.7072 0.40463-14c0.60805-21.038 3.8264-28.53 14.603-33.991 13.727-6.9559 37.055-7.2947 46.018-0.66831 3.0179 2.2312 4.001 1.9344 4.001-1.2078 0-3.0427 1.7858-0.68689 2.173 2.8667 0.27228 2.4983 0.78794 3.0169 3.0836 3.101 3.8441 0.14085 6.3782 2.7835 8.3437 8.701 1.4022 4.2218 1.5836 7.5389 1.0874 19.889-0.69723 17.353-1.6988 20.659-3.5474 11.71z" fill="#323232"/>
+ <path id="path6134" d="m164.98 52.097c-1.3964-7.814-4.8118-15.876-7.8811-18.604-1.9827-1.7621-2.1889-1.7435-6.8917 0.62202-7.8639 3.9555-18.127 6.3402-34.848 8.0966l-5 0.52525 3.5-1.8682c4.4051-2.3513 8.9897-7.0592 6.8743-7.0592-0.81087 0-1.9018 0.41782-2.4243 0.92848-1.2914 1.2621-11.6 5.2544-12.15 4.7051-0.24187-0.24186 0.48829-2.2589 1.6226-4.4822 1.2963-2.5409 1.6846-4.2759 1.0454-4.671-2.1406-1.323-6.9992 0.81161-10.39 4.5646-4.0586 4.4924-6.1343 8.9605-8.1087 17.455-1.3477 5.7981-1.3833 5.4448-1.0592-10.5 0.3939-19.374 1.7575-25.101 7.2941-30.638 8.2924-8.2924 24.931-12.266 40.795-9.7425 5.5743 0.88664 10.055 2.2005 11.771 3.4517 2.9017 2.1152 4.7286 1.8489 4.7286-0.68937 0-2.74 1.7626-0.46067 2.4413 3.157 0.53351 2.8439 1.0315 3.4457 2.4725 2.9884 2.9078-0.92291 5.0357 0.45342 7.1705 4.6379 3.4801 6.8215 4.2018 13.84 2.8526 27.741-1.6027 16.513-2.255 18.117-3.8161 9.3811z" fill="#4c4c4c"/>
+ <path id="path6136" d="m165.95 57.847c-0.0912-7.0643-5.6683-22.077-9.0925-24.475-1.8575-1.301-2.635-1.1664-7.7512 1.3419-6.6793 3.2747-15.402 5.5064-27.16 6.9493-11.418 1.4011-13.369 1.3296-9.5262-0.34905 3.277-1.4316 9.8289-6.6155 9.1806-7.2638-0.2221-0.2221-2.6036 0.69892-5.2922 2.0467s-6.1999 2.7779-7.8028 3.1779c-2.5903 0.64651-2.8292 0.51613-2.1477-1.1723 3.4156-8.4628 3.2662-9.1172-1.7059-7.4762-6.5696 2.1682-10.639 8.3747-13.649 20.815l-1.8777 7.7618-0.18794-5.5c-0.63092-18.464 0.57282-31.227 3.5335-37.466 4.607-9.7084 18.344-15.755 35.7-15.714 9.4291 0.0222 16.834 1.459 21.422 4.1569 2.7526 1.6184 3.2502 1.6655 3.7532 0.35455 0.31896-0.8312 0.32691-1.9207 0.0177-2.421-0.30928-0.50037-0.15797-0.90976 0.33621-0.90976 1.0448 0 3.2195 4.4223 3.2195 6.547 0 0.89007 0.98613 1.453 2.5454 1.453 3.7172 0 7.1021 3.9832 9.0474 10.647 1.5251 5.2239 1.5859 7.5017 0.56578 21.178-0.6287 8.4287-1.5829 16.079-2.1204 17-0.83568 1.4323-0.98177 1.3336-1.0078-0.68056z" fill="#6f6f6f"/>
+ <g id="g85" fill="#ebeff0">
+  <path id="rightHandFront" d="m57.807 250.81c-6.9167-2.2695-9.8712-10.416-9.749-17.161-0.77789-21.035-0.98427-42.174 0.82095-63.16 3.1423-21.072 7.5076-42.905 19.579-60.882 3.9115-5.2498 8.7848-10.916 15.531-12.118 1.5665 7.0481 0.82402 14.557 1.0321 21.812-0.10828 4.9014 0.21664 9.903-0.16254 14.742-5.1753 9.803-9.247 20.257-10.572 31.336-3.789 25.414-1.9164 51.216-4.2899 76.728 0.15466 7.2203-5.8129 10.071-12.189 8.7035z"/>
+  <path id="leftHandFront" d="m196.83 250.76c-6.6037-2.6643-5.2168-11.144-5.9608-16.912-1.3352-22.044 0.526-44.535-4.7686-66.164-2.6213-10.458-6.6711-20.537-9.7464-30.827 0.14758-12.766-0.43735-25.574 0.68662-38.302 4.7915 1.1674 8.9681 7.3615 12.649 11.339 17.508 24.087 22.207 54.585 23.311 83.644 0.27367 15.661 0.64288 31.473-1.7281 46.997-0.70076 6.4156-6.4929 14.298-13.62 10.566l-0.82267-0.34042z"/>
+  <path id="chest" d="m88.343 147.42c-0.8227-3.3677 1.6833-10.201-1.9381-11.506-1.5837-3.8646-0.77009-8.4032-1.0476-12.565-0.0271-8.5592-0.009-17.119-0.0143-25.678 11.608-1.9449 23.441-1.2977 35.159-1.5743 16.97 0.0496 33.965-0.14268 50.913 0.84114 1.355 0.5383 4.6096 0.27932 4.4413 2.2279 0.0554 12.632 0.60742 25.274 0.16659 37.9 0.18985 3.6242-2.7069-1.9724-2.4521 1.7457-0.33281 6.8982-0.15308 13.811-0.22742 20.716h-85v-12.107z"/>
+  <path id="leftLegFront" d="m155.38 375.77c-18.217-5.3697-11.553-26.659-13.135-40.895-0.39462-27.01-0.49541-54.023-0.73491-81.034 10.987-14.027 21.974-28.055 32.962-42.082-0.16488 51.772 0.99329 103.57-0.41025 155.32-0.43818 9.7233-11.364 10.949-18.681 8.6895z"/>
+ </g>
+ <path id="rightLegFront" d="m99.204 377.87c-16.484-6.1989-9.7356-26.82-11.376-40.292-0.1984-42.918 0.13915-85.837 0.23849-128.76 13.535 15.177 27.574 29.928 40.5 45.63-8.932 9.5079-1.3503 29.57-3.9978 42.684-0.62551 24.489 1.4182 49.201-1.6019 73.54-3.4223 8.3069-16.183 9.2589-23.763 7.1933z" fill="#edf0f1"/>
+ <g id="g92" fill="#ebeff0">
+  <path id="leftHandBack" d="m526.73 254.31c-6.9167-2.2695-9.8712-10.416-9.749-17.161-0.77789-21.035-0.98427-42.174 0.82095-63.16 3.1423-21.072 7.5076-42.905 19.579-60.882 3.9115-5.2498 8.7848-10.916 15.531-12.118 1.5665 7.0481 0.82402 14.557 1.0321 21.812-0.10828 4.9014 0.21664 9.903-0.16254 14.742-5.1753 9.803-9.247 20.257-10.572 31.336-3.789 25.414-1.9164 51.216-4.2899 76.728 0.15466 7.2203-5.8129 10.071-12.189 8.7035z"/>
+  <path id="rightHandBack" d="m665.76 254.26c-6.6037-2.6643-5.2168-11.144-5.9608-16.912-1.3352-22.044 0.526-44.535-4.7686-66.164-2.6213-10.458-6.6711-20.537-9.7464-30.827 0.14758-12.766-0.43735-25.574 0.68662-38.302 4.7915 1.1674 8.9681 7.3615 12.649 11.339 17.508 24.087 22.207 54.585 23.311 83.644 0.27367 15.661 0.64288 31.473-1.7281 46.997-0.70076 6.4156-6.4929 14.298-13.62 10.566l-0.82267-0.34042z"/>
+  <path id="upperBack" d="m557.27 150.92c-0.8227-3.3677 1.6833-10.201-1.9381-11.506-1.5837-3.8646-0.77009-8.4032-1.0476-12.565-0.0271-8.5592-0.009-17.119-0.0143-25.678 11.608-1.9449 23.441-1.2977 35.159-1.5743 16.97 0.0496 33.965-0.14268 50.913 0.84114 1.355 0.5383 4.6096 0.27932 4.4413 2.2279 0.0554 12.632 0.60742 25.274 0.16659 37.9 0.18985 3.6242-2.7069-1.9724-2.4521 1.7457-0.33281 6.8982-0.15308 13.811-0.22742 20.716h-85v-12.107z"/>
+  <path id="rightLegBack" d="m624.31 379.27c-18.217-5.3697-11.553-26.659-13.135-40.895-0.39462-27.01-0.49541-54.023-0.73491-81.034 10.987-14.027 21.974-28.055 32.962-42.082-0.16488 51.772 0.99329 103.57-0.41025 155.32-0.43818 9.7233-11.364 10.949-18.681 8.6895z"/>
+ </g>
+ <path id="leftLegBack" d="m568.13 381.37c-16.484-6.1989-9.7356-26.82-11.376-40.292-0.1984-42.918 0.13915-85.837 0.23849-128.76 13.535 15.177 27.574 29.928 40.5 45.63-8.932 9.5079-1.3503 29.57-3.9978 42.684-0.62551 24.489 1.4182 49.201-1.6019 73.54-3.4223 8.3069-16.183 9.2589-23.763 7.1933z" fill="#edf0f1"/>
+ <path id="path6756" d="m586.68 94.897c-20.675-4.7242-30.016-24.833-29.668-44.598 0.28441-9.594-1.154-19.917 0.38358-29.202 5.1426-6.2366 12.66-12.621 16.884-16.577-0.53106 8.343 17.906-5.1601 25.637-0.62938 19.603-3.1938 41.498 13.053 38.715 34.031-0.44728 10.09 0.73601 20.676-0.63799 30.541-5.9217 12.482-15.631 23.228-29.561 26.62-7.0519 2.1803-14.743 2.1562-21.753-0.18542z" fill="#ebeff0"/>
+ <path id="path6754" d="m572.68 87.237c-15.955-8.9326-15.698-32.395-15.883-49.178 0.6944-7.5524-2.5683-16.502 4.3846-21.949 8.183-1.8996 11.539-17.48 14.397-7.9924 16.089-6.4881 37.896-7.4925 52.365 3.8499 15.818 12.362 9.5286 33.796 10.607 51.174 0.14867 8.679-7.3559 16.048-12.226 22.515-16.054 6.8947-36.826 4.7452-53.646 1.5799z" fill="#323232"/>
+ <path id="headBack" stroke="#6f6f6f" stroke-width=".5" fill="#6f6f6f" d="m590.85 89.317c-0.825-0.11211-3.525-0.44553-6-0.74092-9.3388-1.1146-12.237-1.8534-14.731-3.7557-6.1021-4.6535-9.4597-11.371-11.604-23.215-0.86445-4.7745-1.0822-8.4644-1.2832-21.75-0.16939-11.191-0.0695-16.638 0.33222-18.124 0.65168-2.4096 3.2133-5.2295 6.4734-7.1261 1.1818-0.6875 3.4004-2.825 4.9303-4.75 4.2088-5.2958 4.8644-5.6691 5.7077-3.25 0.60598 1.7383 0.68837 1.7568 3.1828 0.71455 6.489-2.7112 20.174-4.4848 27.992-3.6278 14.134 1.5492 24.996 8.1672 29.465 17.953 3.0154 6.6024 3.6951 14.645 2.9334 34.711-0.41151 10.841-0.43966 11.047-1.9528 14.25-0.84442 1.7875-3.4276 5.7793-5.7404 8.8707l-4.2051 5.6207-3.75 1.2445c-7.0041 2.3244-10.284 2.8038-20.5 2.9963-5.3625 0.10104-10.425 0.092-11.25-0.0201v-0.00002z"/>
+ <rect id="noPainRect" pointer-events="visible" height="35" width="36" stroke="#6f6f6f" y="28.717" x="282.45" fill="none"/>
+ <g id="g103" fill="#333">
+  <text id="text8244" font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="63.781609" x="320.94678" font-family="&apos;Helvetica Neue&apos;"><tspan id="tspan8246" y="63.781609" x="320.94678"><tspan id="tspan8248" y="63.781609" x="320.94678" fill="#333333">No Pain</tspan></tspan></text>
+  <g id="g108" font-family="Sans">
+   <text id="text8276" font-size="23.392px" line-height="125%" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" transform="scale(.97424 1.0264)" y="427.03342" x="105.59016"><tspan id="tspan8278" y="427.03342" x="105.59016" fill="#333333"><tspan id="tspan8280" y="427.03342" x="105.59016">Front</tspan><tspan id="tspan8282" y="427.03342" x="160.23141" dx="0"/></tspan></text>
+   <text id="text8284" font-size="23.392px" line-height="125%" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" transform="scale(.97424 1.0264)" y="427.03342" x="594.44043"><tspan id="tspan8286" y="427.03342" x="594.44043" fill="#333333"><tspan id="tspan8288" y="427.03342" x="594.44043">Back</tspan><tspan id="tspan8290" y="427.03342" x="646.47754" dx="0"/></tspan></text>
+   <text id="bodyPartText" font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="280.83463" x="279.01709"><tspan id="tspan8374" y="280.83463" x="279.01709"><tspan id="tspan8376" y="280.83463" x="279.01709" font-family="&apos;Helvetica Neue&apos;" fill="#333333">Body Part</tspan></tspan></text>
+  </g>
+ </g>
+ <path id="lowerBack" stroke="#edf0f1" stroke-width=".49983" fill="#edf0f1" d="m600.25 258.05c-1.8252-0.65202-2.751-1.4747-5.8329-5.1832-7.1947-8.6574-11.053-13.14-20.637-23.98-15.557-17.595-16.967-19.24-16.567-19.331 0.30708-0.0696 0.35665-3.2228 0.35665-22.688v-22.607h84.932l0.15558 21.688c0.10396 14.49 0.24555 22.003 0.42663 22.639 0.3377 1.1852-0.0521 2.4957-1.7821 5.9909-2.3185 4.6842-4.4917 7.7489-12.364 17.436-3.074 3.7827-7.9247 9.9702-10.779 13.75-5.5596 7.3615-8.8234 10.955-10.896 11.996-1.6793 0.84375-5.0691 0.98354-7.0127 0.28919z"/>
+ <path id="abdomen" stroke="#edf0f1" stroke-width=".17748" fill="#edf0f1" d="m132.89 255.1c-1.3338-0.28469-2.4813-0.75932-3.5623-1.4735-0.60743-0.40132-0.66603-0.46858-5.54-6.3585-6.0758-7.3423-8.1958-9.7716-20.287-23.246-9.9277-11.063-14.289-16.02-15.406-17.509-0.25014-0.33354-0.31538-0.74674-0.12778-0.80923 0.08773-0.0292 0.12439-4.4223 0.17799-21.331 0.03713-11.712 0.09067-21.816 0.11897-22.455l0.05146-1.1605 8.057-0.0534c4.4313-0.0294 23.654-0.0769 42.717-0.10557l34.66-0.0522 0.0519 1.7964c0.0285 0.988 0.0731 9.9104 0.0989 19.828 0.0424 16.262 0.11163 21.946 0.27809 22.833 0.0436 0.23222 0.12299 0.32706 0.35513 0.42406 0.33712 0.14086 0.33993 0.00071-0.0289 1.4432-0.68186 2.6666-3.0931 7.2277-5.8898 11.141-1.235 1.7282-3.9353 5.2015-8.8985 11.446-2.8978 3.646-6.9347 8.7968-8.971 11.446-5.6449 7.3448-7.0178 9.0196-9.0571 11.049-1.8402 1.8309-3.1048 2.6856-4.5116 3.0492-0.76282 0.19714-3.5267 0.2605-4.2868 0.0983z"/>
+</svg>
+
+
+</div>
+
+
+<div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-1 customBtn">
+	<button type="button" id="prev" class="btn btn-block" ng-disabled = "prevDisabled" ng-click="goPrev();"><i class="fa fa-angle-left"></i>&nbsp;&nbsp;&nbsp;Prev</button>
+</div>
+<div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 customBtn">
+	<button type="button" id="next" class="btn btn-primary btn-block redBtn" ng-disabled = "nextDisabled" ng-click="goNext();">Next &nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i></button>
+</div>
+<!-- <div class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 customBtn" style="margin-top:5%">
+	<button type="button" id="prev" class="btn btn-block" ng-click="changePage('/');">Cancel Survey</button>
+</div> -->
+<div class="progress" id="surveyProgress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{getAnswered()}}" aria-valuemin="0" aria-valuemax="{{getTotal()}}" ng-style="{width : ( getPercentage() + '%' ) }">
+    {{getAnswered()}}/{{getTotal()}}
+  </div>
+</div>
+<!-- <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+    0%
+  </div>
+</div> -->
+<!-- <div class="progress" id="surveyProgress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" ng-style="myStyle"> <span class="sr-only">50%</span>
+  </div>
+</div> -->
+<!-- <div class="progress-bar progress-bar-warning"
+  role="progressbar" aria-valuenow="{{getPercentage()}}" aria-valuemin="0"
+  aria-valuemax="100">
+    <span class="sr-only">{{getPercentage()}}% Complete (warning)</span>
+</div> -->

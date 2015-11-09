@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default navbar-static-top headerTop">    
+    <a class="navbar-brand brand-text text-center fillWidth">
+        {{title}}
+    </a>    
+</nav>
+<div style="background: url('images/bear.svg'); background-repeat: no-repeat; height: 300px;">
+	
+	<h4 class="text-center">{{errorMessage}}</h4>
+	<p class="text-center">
+		 <br>
+		Error occurred while loading question : {{question_no}}.
+	</p>
+	<p class = "text-center">
+		<br>
+		<b>Please take a screenshot of this using your device.
+		Send in the screenshot over email to promisasu@gmail.com </b>
+	</p>
+	
+	<div class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 customBtn">
+		<button type="button" class="btn btn-primary btn-block redBtn" ng-click="changePage('/')">Back to Home</button>
+	</div>
+	<br><br><br><br>
+	<p class = "text-center">
+		Below information is useful for troubleshooting the issue and can be ignored by the user.
+	</p>
+	<p class = "text-left">
+			
+		<br>
+		Survey ID : {{surveyId}}
+		<br>
+		Error in Question ID : {{question_no}}
+		<br>
+		Question Array : {{questions}}
+	</p>
+</div>
