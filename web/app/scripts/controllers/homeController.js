@@ -61,14 +61,21 @@
           //   }
           // });
 					var index = 0;
+          var recent_survey_time = '9999-12-31 11:59:59';
 					for(var i=0; i<data.surveys.length; i++){
 						okayToStart = data.surveys[i].okayToStart;
 						if(okayToStart){
 								index = i;
 								break;
 						}
+            else{
+              if(data.surveys[i].nextDueAt < recent_survey_time){
+                recent_survey_time = data.surveys[i].nextDueAt;
+                index = i;
+              }
+            }
 					}
-					okayToStart = data.surveys[index].okayToStart;
+          okayToStart = data.surveys[index].okayToStart;
 					var nextDueAtFinal = data.surveys[index].nextDueAt;
 					$scope.nextDueSurveyID = data.surveys[index].surveyInstanceID;
 					$scope.nextDueSurveyTitle = data.surveys[index].surveyTitle;
